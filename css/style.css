@@ -1148,18 +1148,35 @@ p { color: var(--text); }
 }
 
 /* Force 2 cards per row on mobile for standard grids and lists */
-@media (max-width: 576px) {
-    /* Prevent brand name wrapping in header */
+@media (max-width: 991.98px) {
+    html {
+        scroll-padding-top: 90px;
+    }
     .navbar-brand-custom {
-        font-size: 1.1rem !important;
-        gap: 6px !important;
+        font-size: 1.25rem !important;
+        gap: 8px !important;
         white-space: nowrap !important;
         display: flex !important;
         align-items: center !important;
     }
     .navbar-brand-custom img {
-        height: 44px !important;
+        height: 48px !important;
         flex-shrink: 0;
+    }
+    .navbar-toggler {
+        padding: 6px 10px !important;
+        font-size: 0.95rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Prevent brand name wrapping in header */
+    .navbar-brand-custom {
+        font-size: 1.1rem !important;
+        gap: 6px !important;
+    }
+    .navbar-brand-custom img {
+        height: 44px !important;
     }
     .navbar-toggler {
         padding: 4px 8px !important;
