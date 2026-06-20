@@ -14,7 +14,7 @@
     <!-- AOS.js CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=1.0.3">
     <?php if (isset($extraHead)) echo $extraHead; ?>
 </head>
 <body class="<?php echo isset($bodyClass) ? $bodyClass : 'bg-canvas'; ?>">
