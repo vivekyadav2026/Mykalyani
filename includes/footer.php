@@ -4,37 +4,47 @@
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6 pe-lg-5 text-center text-md-start">
                     <a class="navbar-brand-custom mb-4 d-inline-flex align-items-center" href="index.php" style="color: var(--white);">
-                        <img src="images/logo.jpg" alt="Kalyani Foundation Logo" style="height: 48px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: var(--white); padding: 4px;" class="me-2"> 
-                        Kalyani<span class="text-primary">Foundation</span>
+                        <img src="images/logo.jpg" alt="Kalyani Foundation Logo" style="height: 82px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: var(--white); padding: 4px;" class="me-2"> 
+                        <span style="color: #0E7A3D !important;">Kalyani</span><span style="color: #E52F37 !important; margin-left: 2px;">Foundation</span>
                     </a>
-                    <p class="mb-4 text-white-50 lh-lg">A registered public charitable trust dedicated to rural education, woman empowerment, clean healthcare, and ecological sustainability.</p>
+                    <p class="mb-4 text-white-50 lh-lg">ग्रामीण शिक्षा, महिला सशक्तिकरण, स्वच्छ स्वास्थ्य सेवा और पारिस्थितिक स्थिरता के लिए समर्पित एक पंजीकृत सार्वजनिक धर्मार्थ ट्रस्ट।</p>
                     <div class="d-flex flex-column align-items-center align-items-md-start gap-2 mb-4">
-                        <span class="d-block small text-white-50"><i class="fa-solid fa-check text-primary me-2"></i> Exemption Ref No: AAETM2345RF20241</span>
-                        <span class="d-block small text-white-50"><i class="fa-solid fa-check text-primary me-2"></i> CSR Registry No: CSR0004512</span>
+                        <span class="d-block small text-white-50"><i class="fa-solid fa-check text-primary me-2"></i> छूट संदर्भ संख्या: AAETM2345RF20241</span>
+                        <span class="d-block small text-white-50"><i class="fa-solid fa-check text-primary me-2"></i> सीएसआर पंजीकरण संख्या: CSR0004512</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 text-center text-md-start">
-                    <h5>Quick Links</h5>
+                    <h5>त्वरित लिंक</h5>
                     <ul class="list-unstyled d-flex flex-column align-items-center align-items-md-start gap-3 mt-4">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="programs.php">Programs</a></li>
-                        <li><a href="gallery.php">Gallery</a></li>
-                        <li><a href="volunteer.php">Volunteer</a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
-                        <li><a href="donate.php" class="text-accent fw-bold">Donate Now</a></li>
+                        <li><a href="index.php">मुख्य पृष्ठ</a></li>
+                        <li><a href="about.php">हमारे बारे में</a></li>
+                        <li><a href="programs.php">कार्यक्रम</a></li>
+                        <li><a href="gallery.php">गैलरी</a></li>
+                        <li><a href="volunteer.php">स्वयंसेवक</a></li>
+                        <li><a href="contact.php">संपर्क करें</a></li>
+                        <li><a href="donate.php" class="text-accent fw-bold">अभी दान करें</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center text-md-start">
-                    <h5>Contact Info</h5>
+                    <h5>संपर्क सूत्र</h5>
                     <ul class="list-unstyled d-flex flex-column align-items-center align-items-md-start gap-4 mt-4 text-white-50">
                         <li class="d-flex align-items-start text-start gap-3">
                             <i class="fa-solid fa-location-dot text-primary mt-1"></i> 
-                            <span>Plot 45, Sector 12, Dwarka, New Delhi - 110075</span>
+                            <div>
+                                <strong>पंजीकृत कार्यालय (Registered Office):</strong><br>
+                                महुआ, वैशाली, बिहार
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start text-start gap-3">
+                            <i class="fa-solid fa-location-dot text-primary mt-1"></i> 
+                            <div>
+                                <strong>कार्यालय का पता (Office Address):</strong><br>
+                                पकड़ी दयाल, मोतिहारी, बिहार
+                            </div>
                         </li>
                         <li class="d-flex align-items-start text-start gap-3">
                             <i class="fa-solid fa-phone text-primary mt-1"></i> 
-                            <span>+91 98765 43210</span>
+                            <span>+91 74630 14750</span>
                         </li>
                         <li class="d-flex align-items-start text-start gap-3">
                             <i class="fa-solid fa-envelope text-primary mt-1"></i> 
@@ -43,10 +53,10 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center text-lg-start">
-                    <h5>Newsletter</h5>
-                    <p class="mb-4 text-white-50 mt-4">Subscribe to get monthly field-impact summaries directly in your inbox.</p>
+                    <h5>न्यूजलेटर</h5>
+                    <p class="mb-4 text-white-50 mt-4">सीधे अपने इनबॉक्स में मासिक प्रभाव रिपोर्ट प्राप्त करने के लिए सदस्यता लें।</p>
                     <form class="input-group">
-                        <input type="email" class="form-control footer-input-field" placeholder="Email Address" required style="border-radius: 30px 0 0 30px; border-right: none;">
+                        <input type="email" class="form-control footer-input-field" placeholder="ईमेल पता" required style="border-radius: 30px 0 0 30px; border-right: none;">
                         <button class="btn btn-pill-primary" type="submit" style="border-radius: 0 30px 30px 0; padding: 14px 28px; box-shadow: none;"><i class="fa-regular fa-paper-plane"></i></button>
                     </form>
                     <div class="d-flex justify-content-center justify-content-lg-start gap-3 mt-4 mt-lg-5">
@@ -57,10 +67,10 @@
                 </div>
             </div>
             <div class="footer-bottom-line text-center text-white-50 d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
-                <p class="mb-0">&copy; 2026 Mykalyani Foundation. All rights reserved.</p>
+                <p class="mb-0">&copy; 2026 कल्याणी फाउंडेशन। सर्वाधिकार सुरक्षित।</p>
                 <div class="d-flex gap-4">
-                    <a href="privacy.php" class="text-white-50 small text-decoration-none">Privacy Policy</a>
-                    <a href="terms.php" class="text-white-50 small text-decoration-none">Terms of Service</a>
+                    <a href="privacy.php" class="text-white-50 small text-decoration-none">गोपनीयता नीति</a>
+                    <a href="terms.php" class="text-white-50 small text-decoration-none">सेवा की शर्तें</a>
                 </div>
             </div>
         </div>
@@ -70,23 +80,23 @@
     <div class="mobile-bottom-nav">
         <a href="index.php" class="mobile-bottom-nav-item <?php echo (isset($activePage) && $activePage === 'home') ? 'active' : ''; ?>">
             <i class="fa-solid fa-house"></i>
-            <span>Home</span>
+            <span>मुख्य पृष्ठ</span>
         </a>
         <a href="training-tailoring.php" class="mobile-bottom-nav-item <?php echo (isset($activePage) && strpos($activePage, 'training') !== false) ? 'active' : ''; ?>">
             <i class="fa-solid fa-chalkboard-user"></i>
-            <span>Training</span>
+            <span>प्रशिक्षण</span>
         </a>
         <a href="loan-personal.php" class="mobile-bottom-nav-item <?php echo (isset($activePage) && strpos($activePage, 'loan') !== false) ? 'active' : ''; ?>">
             <i class="fa-solid fa-hand-holding-dollar"></i>
-            <span>Loans</span>
+            <span>ऋण</span>
         </a>
         <a href="donate.php" class="mobile-bottom-nav-item <?php echo (isset($activePage) && $activePage === 'donate') ? 'active' : ''; ?>">
             <i class="fa-solid fa-heart"></i>
-            <span>Donate</span>
+            <span>दान करें</span>
         </a>
         <a href="contact.php" class="mobile-bottom-nav-item <?php echo (isset($activePage) && $activePage === 'contact') ? 'active' : ''; ?>">
             <i class="fa-solid fa-phone"></i>
-            <span>Contact</span>
+            <span>संपर्क</span>
         </a>
     </div>
 

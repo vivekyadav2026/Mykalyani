@@ -79,7 +79,7 @@ include 'includes/header.php';
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label fw-bold text-dark small">Phone Number</label>
-                                    <input type="tel" class="form-control form-control-custom" placeholder="+91 9876543210" required>
+                                    <input type="tel" class="form-control form-control-custom" placeholder="+91 74630 14750" required>
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label fw-bold text-dark small">Area of Interest</label>

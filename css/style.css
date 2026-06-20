@@ -102,13 +102,13 @@ p { color: var(--text); }
 .navbar-custom {
     background-color: var(--white);
     border-bottom: 1px solid var(--border);
-    padding: 16px 0;
+    padding: 8px 0;
     transition: var(--transition);
     z-index: 1000;
 }
 
 .navbar-custom.scrolled {
-    padding: 12px 0;
+    padding: 6px 0;
     box-shadow: var(--shadow-sm);
     background-color: rgba(255, 255, 255, 0.98);
     backdrop-filter: blur(12px);
@@ -1160,7 +1160,7 @@ p { color: var(--text); }
         align-items: center !important;
     }
     .navbar-brand-custom img {
-        height: 48px !important;
+        height: 58px !important;
         flex-shrink: 0;
     }
     .navbar-toggler {
@@ -1176,7 +1176,7 @@ p { color: var(--text); }
         gap: 6px !important;
     }
     .navbar-brand-custom img {
-        height: 44px !important;
+        height: 52px !important;
     }
     .navbar-toggler {
         padding: 4px 8px !important;
@@ -1353,5 +1353,251 @@ p { color: var(--text); }
     
     body {
         padding-bottom: 74px !important;
+    }
+}
+
+/* ==========================================
+   RED TOP UTILITY BAR & NEWS TICKER
+   ========================================== */
+.top-utility-bar {
+    background-color: #E52F37; /* Vibrant Red background */
+    color: var(--white);
+    padding: 6px 0;
+    font-size: 0.88rem;
+    font-family: var(--font-body);
+    z-index: 1060;
+    position: relative;
+}
+
+.top-social-icon {
+    width: 30px;
+    height: 30px;
+    background-color: var(--white);
+    color: #0E7A3D !important; /* Theme Green Icon */
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.top-social-icon:hover {
+    background-color: var(--dark);
+    color: var(--white) !important;
+    transform: scale(1.1);
+}
+
+.news-ticker-container {
+    overflow: hidden;
+    height: 34px;
+    border-radius: 30px;
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+}
+
+.news-ticker-badge {
+    background-color: #0E7A3D; /* Theme Green */
+    color: var(--white);
+    padding: 0 16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 0.82rem;
+    white-space: nowrap;
+    border-radius: 30px 0 0 30px;
+    position: relative;
+    z-index: 5;
+    box-shadow: 3px 0 6px rgba(0, 0, 0, 0.15);
+}
+
+.news-ticker-content {
+    flex-grow: 1;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 0 30px 30px 0;
+}
+
+.news-ticker-scroll {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    animation: ticker-scroll 35s linear infinite;
+    padding-left: 20px;
+}
+
+.news-ticker-scroll:hover {
+    animation-play-state: paused;
+}
+
+.news-ticker-scroll span {
+    color: #E52F37; /* Vibrant Red text */
+    font-weight: 700;
+    font-size: 0.85rem;
+    font-family: var(--font-heading);
+}
+
+.ticker-separator {
+    width: 8px;
+    height: 8px;
+    background-color: var(--dark);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 20px;
+    flex-shrink: 0;
+}
+
+@keyframes ticker-scroll {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+/* ==========================================
+   HERO BANNER CAROUSEL SLIDER
+   ========================================== */
+#heroCarousel {
+    position: relative;
+    width: 100%;
+    background-color: var(--dark);
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.carousel-img-wrap {
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.carousel-item.active .carousel-img-wrap {
+    transform: scale(1.06); /* Slow elegant zoom effect */
+}
+
+.carousel-caption-custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding-bottom: 20px;
+}
+
+.text-gradient-light {
+    background: linear-gradient(135deg, #FFFFFF 40%, #E2E8F0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.text-light-50 {
+    color: rgba(255, 255, 255, 0.95) !important;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
+.btn-pill-outline-light {
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    color: var(--white) !important;
+    background-color: transparent;
+    border-radius: var(--radius-pill);
+    padding: 12px 28px;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.btn-pill-outline-light:hover {
+    background-color: var(--white);
+    color: var(--dark) !important;
+    border-color: var(--white);
+    transform: translateY(-2px);
+}
+
+/* Indicators */
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 6px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    transition: var(--transition);
+}
+
+.carousel-indicators .active {
+    background-color: #0E7A3D; /* Theme Green */
+    transform: scale(1.2);
+}
+
+/* Carousel Control Arrows */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 60px;
+    opacity: 0.7;
+    transition: var(--transition);
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 28px;
+    height: 28px;
+    background-size: 100%, 100%;
+    padding: 24px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive banner heights */
+@media (max-width: 991.98px) {
+    .carousel-img-wrap {
+        height: 480px;
+    }
+    .carousel-caption-custom h1 {
+        font-size: 2.2rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-img-wrap {
+        height: 380px;
+    }
+    .carousel-caption-custom h1 {
+        font-size: 1.6rem !important;
+        margin-bottom: 12px !important;
+    }
+    .carousel-caption-custom p {
+        font-size: 0.9rem !important;
+        margin-bottom: 24px !important;
+    }
+    .carousel-indicators {
+        bottom: 10px;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none; /* Hide navigation arrows on small mobile devices to avoid overlap */
     }
 }

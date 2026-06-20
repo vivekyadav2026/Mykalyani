@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Contact Us | Mykalyani Foundation";
-$pageDescription = "Get in touch with Mykalyani Foundation. Visit our Dwarka head office, call us, or send an email.";
+$pageDescription = "Get in touch with Mykalyani Foundation. Visit our offices in Bihar, call us, or send an email.";
 $activePage = "contact";
 include 'includes/header.php';
 ?>
@@ -26,8 +26,8 @@ include 'includes/header.php';
                 <!-- Contact Info & Map -->
                 <div class="col-lg-5 pe-lg-5 text-center text-lg-start" data-aos="fade-right">
                     <span class="eyebrow-tag mx-auto mx-lg-0 d-table d-lg-inline-block mb-3">Get in Touch</span>
-                    <h2 class="mb-4 text-dark font-heading">Find Our Office</h2>
-                    <p class="text-muted mb-4 lh-lg" style="font-size: 1.05rem;">Our central operations are coordinated from our Dwarka headquarters. We welcome visitors during office hours.</p>
+                    <h2 class="mb-4 text-dark font-heading">Find Our Offices</h2>
+                    <p class="text-muted mb-4 lh-lg" style="font-size: 1.05rem;">We coordinate our operations from our offices in Vaishali and Motihari. Feel free to reach out to us.</p>
 
                     <div class="d-flex flex-column gap-4 mb-4 text-start">
                         <div class="d-flex align-items-center gap-4 p-4 bg-white rounded-4 shadow-sm border-start border-primary border-4 hover-translate-up transition-transform">
@@ -35,8 +35,17 @@ include 'includes/header.php';
                                 <i class="fa-solid fa-location-dot fs-5"></i>
                             </div>
                             <div>
-                                <h4 class="fw-bold h6 mb-1 text-dark">Head Office</h4>
-                                <p class="text-muted small mb-0">Plot 45, Sector 12, Dwarka, New Delhi - 110075</p>
+                                <h4 class="fw-bold h6 mb-1 text-dark">Registered Office</h4>
+                                <p class="text-muted small mb-0">Mahua, Vaishali, Bihar</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-4 p-4 bg-white rounded-4 shadow-sm border-start border-primary border-4 hover-translate-up transition-transform">
+                            <div class="bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 48px; height: 48px; flex-shrink: 0;">
+                                <i class="fa-solid fa-location-dot fs-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="fw-bold h6 mb-1 text-dark">Office Address</h4>
+                                <p class="text-muted small mb-0">Pakadi Dayal, Motihari, Bihar</p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center gap-4 p-4 bg-white rounded-4 shadow-sm border-start border-secondary border-4 hover-translate-up transition-transform">
@@ -45,7 +54,7 @@ include 'includes/header.php';
                             </div>
                             <div>
                                 <h4 class="fw-bold h6 mb-1 text-dark">Phone</h4>
-                                <p class="text-muted small mb-0">+91 98765 43210 (Mon - Fri, 9am - 6pm)</p>
+                                <p class="text-muted small mb-0">+91 74630 14750 (Mon - Sat, 9am - 6pm)</p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center gap-4 p-4 bg-white rounded-4 shadow-sm border-start border-accent border-4 hover-translate-up transition-transform">
@@ -87,7 +96,7 @@ include 'includes/header.php';
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label fw-bold text-dark small">Phone Number</label>
-                                    <input type="tel" class="form-control form-control-custom" placeholder="+91 9876543210" required>
+                                    <input type="tel" class="form-control form-control-custom" placeholder="+91 7463014750" required>
                                 </div>
                                 <div class="col-12">
                                     <label class="form-label fw-bold text-dark small">Subject</label>
