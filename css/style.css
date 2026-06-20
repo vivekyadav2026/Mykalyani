@@ -909,6 +909,13 @@ p { color: var(--text); }
     box-shadow: 0 10px 20px rgba(14, 122, 61, 0.3);
 }
 
+@media (max-width: 991.98px) {
+    .footer-circle-btn {
+        width: 44px;
+        height: 44px;
+    }
+}
+
 .footer-input-field {
     background-color: rgba(255,255,255,0.04);
     border: 1px solid rgba(255, 255, 255, 0.1);
