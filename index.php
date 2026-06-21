@@ -274,6 +274,54 @@ include 'includes/header.php';
         </div>
     </section>
 
+    <!-- Mangalam Yojana Section -->
+    <section class="section-padding bg-white position-relative overflow-hidden border-top">
+        <div class="container">
+            <div class="row align-items-center g-5 flex-lg-row-reverse">
+                <div class="col-lg-6 ps-lg-5 text-center text-lg-start" data-aos="fade-left">
+                    <span class="eyebrow-tag mx-auto mx-lg-0 d-table d-lg-inline-block mb-3">विशेष पहल</span>
+                    <h2 class="mb-4 text-dark lh-sm" style="font-family: var(--font-heading); font-weight: 800;">मंगलम योजना</h2>
+                    
+                    <div class="p-3 bg-canvas rounded-4 border-start border-danger border-4 shadow-sm mb-4 text-start">
+                        <p class="lead mb-0 text-dark fw-semibold style-hindi" style="line-height: 1.8; font-size: 1.1rem;">
+                            हमारी संस्था की ओर से चलाये जा रही मंगलम योजना ग्रामीण परिवार के लोगो को बेटी की शादी के समय आर्थिक सहायता प्रदान कराती है जो एक सौगात के रूप में दिया जाता है।
+                        </p>
+                    </div>
+                    
+                    <p class="text-muted mb-4 lh-lg text-start" style="font-size: 1.05rem;">
+                        इसमें 18 साल से काम उम्र की लड़कियों के लिए ये योजना हैं।
+                    </p>
+                    
+                    <div class="d-flex flex-wrap gap-3 mt-4 justify-content-center justify-content-lg-start">
+                        <div class="d-flex align-items-center gap-3 bg-canvas py-2.5 px-4 rounded-pill border shadow-sm transition-transform hover-translate-up">
+                            <div class="bg-danger bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px; flex-shrink: 0;">
+                                <i class="fa-solid fa-gift text-danger fs-5"></i>
+                            </div>
+                            <span class="fw-bold text-dark" style="font-size: 0.9rem;">शादी में आर्थिक सहायता (सौगात)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                    <div class="position-relative px-2">
+                        <div class="image-offset-wrapper">
+                            <img src="images/mangalam_yojana.png" class="img-fluid w-100 rounded-4 shadow-lg border border-4 border-white" style="height: 440px; object-fit: cover;" alt="Mangalam Yojana">
+                            <!-- Floating Card -->
+                            <div class="glass-badge position-absolute top-0 start-0 m-4 p-3 d-flex align-items-center gap-3 border-radius-md shadow-lg" style="border-radius: var(--radius-md); background: rgba(255,255,255,0.9); backdrop-filter: blur(10px);">
+                                <div class="bg-danger rounded-circle d-flex align-items-center justify-content-center text-white" style="width: 44px; height: 44px;">
+                                    <i class="fa-solid fa-hands-holding-child fs-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="fw-extrabold text-danger mb-0 h5">मंगलम सौगात</h4>
+                                    <p class="small text-muted mb-0 fw-bold text-uppercase" style="letter-spacing: 0.5px; font-size: 0.7rem;">बेटी के विवाह पर सहयोग</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Why Choose Us Section -->
     <section class="section-padding position-relative overflow-hidden">
         <div class="container position-relative z-1">
