@@ -11,6 +11,8 @@ include 'includes/header.php';
             <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
         <div class="carousel-inner">
             <!-- Slide 1 -->
@@ -54,10 +56,44 @@ include 'includes/header.php';
                     <div class="row w-100 justify-content-center">
                         <div class="col-lg-10 col-xl-8 text-center">
                             <span class="badge bg-primary text-white rounded-pill px-3 py-2 mb-3 fw-bold text-uppercase fs-7 tracking-wider">Join Us</span>
-                            <h1 class="display-4 text-white fw-bold mb-4 font-heading text-gradient-light">आपका सहयोग, हमारा मिशन</h1>
-                            <p class="lead text-light-50 mb-5 text-shadow-sm fs-5">हमारे मंच के माध्यम से महिलाओं और गरीब परिवारों के जीवन में बदलाव लाने में आपका योगदान महत्वपूर्ण है।</p>
+                            <h1 class="display-4 text-white fw-bold mb-4 font-heading text-gradient-light">एक बेहतर समाज का निर्माण</h1>
+                            <p class="lead text-light-50 mb-5 text-shadow-sm fs-5">ग्रामीण समाज के पिछड़े वर्गों और गरीब परिवारों को मुख्यधारा से जोड़कर खुशहाली लाना ही कल्याणी फाउंडेशन का संकल्प है।</p>
                             <div class="d-flex flex-wrap justify-content-center gap-3">
                                 <a href="donate.php" class="btn btn-pill btn-pill-accent btn-lg"><i class="fa-solid fa-heart me-2"></i> सहयोग करें</a>
+                                <a href="contact.php" class="btn btn-pill btn-pill-outline-light btn-lg"><i class="fa-solid fa-phone me-2"></i> संपर्क करें</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="carousel-item">
+                <div class="carousel-img-wrap" style="background-image: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)), url('images/banner_shg_training.png');"></div>
+                <div class="carousel-caption-custom container">
+                    <div class="row w-100 justify-content-center">
+                        <div class="col-lg-10 col-xl-8 text-center">
+                            <span class="badge bg-primary text-white rounded-pill px-3 py-2 mb-3 fw-bold text-uppercase fs-7 tracking-wider">Skill Training</span>
+                            <h1 class="display-4 text-white fw-bold mb-4 font-heading text-gradient-light">निःशुल्क व्यावसायिक एवं कौशल प्रशिक्षण</h1>
+                            <p class="lead text-light-50 mb-5 text-shadow-sm fs-5">महिलाओं को सिलाई, कंप्यूटर शिक्षा और ब्यूटी पार्लर जैसे कोर्सेज द्वारा निःशुल्क प्रशिक्षित कर आत्मनिर्भर बनाना।</p>
+                            <div class="d-flex flex-wrap justify-content-center gap-3">
+                                <a href="programs.php" class="btn btn-pill btn-pill-accent btn-lg"><i class="fa-solid fa-graduation-cap me-2"></i> कोर्सेज देखें</a>
+                                <a href="contact.php" class="btn btn-pill btn-pill-outline-light btn-lg"><i class="fa-solid fa-phone me-2"></i> संपर्क करें</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 5 -->
+            <div class="carousel-item">
+                <div class="carousel-img-wrap" style="background-image: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)), url('images/banner_shg_employment.png');"></div>
+                <div class="carousel-caption-custom container">
+                    <div class="row w-100 justify-content-center">
+                        <div class="col-lg-10 col-xl-8 text-center">
+                            <span class="badge bg-primary text-white rounded-pill px-3 py-2 mb-3 fw-bold text-uppercase fs-7 tracking-wider">Livelihoods</span>
+                            <h1 class="display-4 text-white fw-bold mb-4 font-heading text-gradient-light">लघु उद्योग एवं ग्रामीण रोजगार</h1>
+                            <p class="lead text-light-50 mb-5 text-shadow-sm fs-5">आचार, पापड़, मसाला और अगरबत्ती उद्योग के माध्यम से ग्रामीण परिवारों के लिए स्थानीय स्वरोजगार के अवसर।</p>
+                            <div class="d-flex flex-wrap justify-content-center gap-3">
+                                <a href="programs.php" class="btn btn-pill btn-pill-accent btn-lg"><i class="fa-solid fa-briefcase me-2"></i> रोजगार योजना</a>
                                 <a href="contact.php" class="btn btn-pill btn-pill-outline-light btn-lg"><i class="fa-solid fa-phone me-2"></i> संपर्क करें</a>
                             </div>
                         </div>
