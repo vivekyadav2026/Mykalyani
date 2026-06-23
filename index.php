@@ -192,7 +192,7 @@ include 'includes/header.php';
                 <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
                     <div class="position-relative px-2">
                         <div class="image-offset-wrapper">
-                            <img src="images/hero_empowerment.png" class="img-fluid w-100 rounded-4 shadow-lg" style="height: 440px; object-fit: cover;" alt="Women Empowerment Training">
+                            <img src="images/kalyani_office.jpg" class="img-fluid w-100 rounded-4 shadow-lg" style="height: 440px; object-fit: cover;" alt="Kalyani Foundation Office">
                             <!-- Floating Card -->
                             <div class="glass-badge position-absolute bottom-0 start-0 m-4 p-3 d-flex align-items-center gap-3 border-radius-md" style="border-radius: var(--radius-md);">
                                 <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center text-white" style="width: 44px; height: 44px;">
@@ -509,7 +509,7 @@ include 'includes/header.php';
                     <a href="loan-personal.php" class="card-program-link text-decoration-none">
                         <div class="card-program h-100">
                             <div class="card-program-img">
-                                <img src="images/loan_personal_1781940925230.png" alt="Personal Loan">
+                                <img src="images/kalyani_office.jpg" alt="Personal Loan">
                                 <span class="badge badge-category bg-secondary">Loan Scheme</span>
                             </div>
                             <div class="card-program-body">

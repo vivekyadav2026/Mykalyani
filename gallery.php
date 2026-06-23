@@ -68,6 +68,15 @@ include 'includes/header.php';
         <div class="container">
             <div class="gallery-grid">
                 
+                <!-- Gallery Item 7 -->
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/kalyani_office.jpg" alt="Kalyani Foundation Office">
+                    <div class="gallery-overlay">
+                        <h5 class="fw-bold mb-1">Our Office</h5>
+                        <p class="small mb-0 text-white-50">Mahila Vikash Kendra Headquarters.</p>
+                    </div>
+                </div>
+
                 <!-- Gallery Item 1 -->
                 <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
                     <img src="images/hero_education.png" alt="Free Skill Training">
@@ -121,6 +130,7 @@ include 'includes/header.php';
                         <p class="small mb-0 text-white-50">Creating local products for local markets.</p>
                     </div>
                 </div>
+
 
             </div>
             

@@ -62,14 +62,14 @@ include 'includes/header.php';
                 <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
                     <div class="position-relative px-2">
                         <div class="image-offset-wrapper">
-                            <img src="images/loan_personal_1781940925230.png" class="img-fluid rounded-4 shadow-lg w-100" style="height: 440px; object-fit: cover;" alt="Personal Loan Distribution">
+                            <img src="images/kalyani_office.jpg" class="img-fluid rounded-4 shadow-lg w-100" style="height: 440px; object-fit: cover;" alt="Kalyani Foundation Office">
                             <!-- Floating Badge -->
                             <div class="glass-badge position-absolute bottom-0 start-0 m-4 p-3 d-flex align-items-center gap-3 border-radius-md" style="border-radius: var(--radius-md);">
                                 <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center text-white" style="width: 44px; height: 44px;">
                                     <i class="fa-solid fa-indian-rupee-sign fs-5"></i>
                                 </div>
                                 <div>
-                                    <h4 class="fw-extrabold text-primary mb-0 h4">₹10K - ₹50K</h4>
+                                    <h4 class="fw-extrabold text-primary mb-0 h4">₹50K - ₹100K</h4>
                                     <p class="small text-muted mb-0 fw-bold text-uppercase" style="letter-spacing: 0.5px; font-size: 0.7rem;">Loan Bracket</p>
                                 </div>
                             </div>
