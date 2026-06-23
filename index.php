@@ -509,7 +509,7 @@ include 'includes/header.php';
                     <a href="loan-personal.php" class="card-program-link text-decoration-none">
                         <div class="card-program h-100">
                             <div class="card-program-img">
-                                <img src="images/kalyani_office.jpg" alt="Personal Loan">
+                                <img src="images/personal_loan_woman.png" alt="Personal Loan">
                                 <span class="badge badge-category bg-secondary">Loan Scheme</span>
                             </div>
                             <div class="card-program-body">
